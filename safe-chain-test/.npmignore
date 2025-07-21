@@ -1,0 +1,36 @@
+# Exclude version control
+.git
+.gitignore
+
+# Exclude macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Exclude development and test files
+*.log
+logs/
+test/
+tests/
+__tests__/
+coverage/
+
+# Exclude environment and config files
+.env
+.env.*
+.npmrc
+
+# Exclude editor and IDE settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Exclude node_modules (should never be published)
+node_modules/
+
+# Exclude miscellaneous
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 

@@ -2,10 +2,22 @@
   "name": "safe-chain-test",
   "version": "1.0.0",
   "description": "A harmless test project to verify Aikido Safe Chain installation.",
+  "keywords": [
+    "safe-chain"
+  ],
+  "homepage": "https://github.com/mack-aikido/safe-chain-test#readme",
+  "bugs": {
+    "url": "https://github.com/mack-aikido/safe-chain-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mack-aikido/safe-chain-test.git"
+  },
+  "license": "MIT",
+  "author": "Mackenzie Jackson",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-  },
-  "author": "",
-  "license": "MIT"
-} 
+  }
+}
